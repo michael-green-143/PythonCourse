@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>381c4a9f-74b7-4f02-bdb2-61631db230ad</ProjectGuid>
+    <ProjectGuid>fccc64de-1b0f-45cf-8fff-6f2b77c6cd1b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>GitHubTest.py</StartupFile>
+    <StartupFile>FindRectArea.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>GitHubTest</Name>
-    <RootNamespace>GitHubTest</RootNamespace>
+    <Name>FindRectArea</Name>
+    <RootNamespace>FindRectArea</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="GitHubTest.py" />
+    <Compile Include="FindRectArea.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
